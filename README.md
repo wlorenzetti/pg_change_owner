@@ -7,8 +7,8 @@ The script use PostgreSql CLI 'psql' for to do owner changes.
 
 For to use you have to set database name and new owner that you want.
 
-'''
+```
 python pg_change_owner -d [DATABASE_NAME] -o [OWNER]
-'''
+```
 
 Important this script is made for a standard Ubuntu Installation, so you have to roun the script with postgres system user.
